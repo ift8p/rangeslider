@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: normal;
+  text-align: center;
+    background: #262529;
+}
+.wrapper {
+    width: 1000px;
+    margin: 60px auto;
+}
+.rangeslider {
+  background: #262529;
+  box-shadow: 0px 0px 250px #000000;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.units {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin: 60px auto 0;
+}
+#currency {
+    font-weight: 900;
+    font-size: 65px;
+    line-height: 82px;
+    color: #FFC700;
+}
+#rangeValue {
+    font-weight: 700;
+    font-size: 94px;
+    line-height: 118px;
+    color: #FFC700;
+}
+.range {
+  width: 698px;
+  height: 50px;
+  -webkit-appearance: none;
+  background: #4D4C53;
+  outline: none;
+  border-radius: 25px;
+  overflow: hidden;
+  margin-top: 72px;
+}
+.range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: #EA346F;
+  cursor: pointer;
+  border: 10px solid #E5ADBF;
+  box-shadow: -407px 2px 25px 400px #E5004A;
+  -webkit-transition: background .15s ease-in-out;
+  transition: background .15s ease-in-out;
+}
+.range::-webkit-slider-thumb:hover {
+  background: #E5004A;
+}
+.buybtn {
+  margin: 68px auto 72px;
+  background: #333139;
+  border: none;
+  border-radius: 100px;
+  width: 333px;
+  height: 109px;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 38px;
+  text-align: center;
+  letter-spacing: 0.15em;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.buybtn:hover {
+  background: #EA346F;
+  transition: background .15s ease-in-out;
+}
